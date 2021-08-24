@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset = "utf-8"/>
+        <link rel="stylesheet" href="static/css/style.css"/>
+        <title>My page title</title>
+    </head>
+
+    <body>
+        <p>I can't wait for the next superbowl</p>
+        <h1> I am exited for the halftime show</h1>
+
+        <div>
+            {% block main%}
+                <h1>This only shows on structure.html</p>
+
+            {% endblock main%}
+
+        </div>
+    </body>
+</html>
